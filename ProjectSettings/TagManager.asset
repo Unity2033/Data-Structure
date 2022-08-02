@@ -3,15 +3,17 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Castle
+  - enemyBug
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Friendly
   - Water
   - UI
-  - 
+  - Enemy
   - 
   - 
   - 
