@@ -1976,8 +1976,8 @@ MonoBehaviour:
   - serializedVersion: 2
     m_Bits: 64
   maxHealth: 0
-  currentHealth: 100
   attack: 10
+  biology: {fileID: 11400000, guid: 2ed21c45915ea0540bbb3d11d78c8996, type: 2}
   Gauge: {fileID: 3811032617210813108}
 --- !u!65 &2551210361667826849
 BoxCollider:
