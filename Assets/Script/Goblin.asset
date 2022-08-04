@@ -9,9 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cac3d79ed4d02d549b7c772a6fb822c0, type: 3}
+  m_Script: {fileID: 11500000, guid: c39429ef8b2f87f4aa6459a45b4edd18, type: 3}
   m_Name: Goblin
   m_EditorClassIdentifier: 
-  health: 100
-  attack: 10
-  speed: 2
+  price: 1000
+  priceTag: {fileID: 21300000, guid: e7f7e2d58f4ce864ca2e01e4e092382c, type: 3}
+  border: {fileID: 21300000, guid: 43fb8b0cf376ce64fad8c82d4da99977, type: 3}
+  Picture: {fileID: 21300000, guid: 34a9cce03e1b9b845a882b4b5fbc2f60, type: 3}

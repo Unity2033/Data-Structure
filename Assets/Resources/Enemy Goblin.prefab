@@ -1969,15 +1969,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5eac62f1a5e400a4fa13ace19a393e99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
   layer:
   - serializedVersion: 2
     m_Bits: 8
   - serializedVersion: 2
     m_Bits: 64
   maxHealth: 0
+  currentHealth: 0
   attack: 10
-  biology: {fileID: 11400000, guid: 2ed21c45915ea0540bbb3d11d78c8996, type: 2}
+  speed: 2
   Gauge: {fileID: 3811032617210813108}
 --- !u!65 &2551210361667826849
 BoxCollider:

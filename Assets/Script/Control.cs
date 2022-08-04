@@ -5,8 +5,10 @@ public class Control : MonoBehaviour
 {
     [SerializeField] LayerMask [] layer;
     [SerializeField] int maxHealth;
+    [SerializeField] int currentHealth;
+    [SerializeField] int attack;
+    [SerializeField] float speed;
 
-    [SerializeField] Biology biology;
     [SerializeField] Slider Gauge;
 
     private RaycastHit hit;
@@ -15,19 +17,19 @@ public class Control : MonoBehaviour
     private void Start()
     {
         animator = GetComponent<Animator>();
-        maxHealth = biology.health;
+        maxHealth = currentHealth;
     }
 
     void Update()
     {
-        if (biology.health <= 0)
+        if (currentHealth <= 0)
         {
             Destroy(gameObject);
         }
 
-        Gauge.value = (float)biology.health / maxHealth;
+        Gauge.value = (float)currentHealth / maxHealth;
 
-        transform.Translate(Vector3.forward * biology.speed * Time.deltaTime);
+        transform.Translate(Vector3.forward * speed * Time.deltaTime);
 
         Ray ray = new Ray
         (
@@ -37,26 +39,26 @@ public class Control : MonoBehaviour
 
         if(Physics.Raycast(ray, out hit, 2.0f, layer[0]))
         {
-            biology.speed = 0;
+            speed = 0;
             animator.SetBool("Attack State", true);
 
-            if(animator.GetCurrentAnimatorStateInfo(0).IsName("attack1"))
+            if (animator.GetCurrentAnimatorStateInfo(0).IsName("attack1"))
             {
                 if(animator.GetCurrentAnimatorStateInfo(0).normalizedTime >= 1)
                 {
                     animator.Rebind();
-                    hit.transform.GetComponent<Control>().biology.health -= biology.attack;
+                    hit.transform.GetComponent<Control>().currentHealth -= attack;
                 }
             }
         }
         else if(Physics.Raycast(ray, out hit, 2.0f, layer[1]))
         {
-            biology.speed = 0;
+            speed = 0;
             animator.SetBool("Idle State", true);
         }
         else
         {
-            biology.speed = 2;
+            speed = 2;
             animator.SetBool("Attack State", false);
             animator.SetBool("Idle State", false);
         }
