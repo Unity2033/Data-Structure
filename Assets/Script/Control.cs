@@ -11,6 +11,7 @@ public class Control : MonoBehaviour
 
     [SerializeField] Slider Gauge;
 
+    private int count;
     private RaycastHit hit;
     private Animator animator;
 
@@ -24,7 +25,9 @@ public class Control : MonoBehaviour
     {
         if (currentHealth <= 0)
         {
-            Destroy(gameObject);
+            speed = 0;
+            animator.SetTrigger("Death");
+            Destroy(gameObject, 1);
         }
 
         Gauge.value = (float)currentHealth / maxHealth;
@@ -44,9 +47,9 @@ public class Control : MonoBehaviour
 
             if (animator.GetCurrentAnimatorStateInfo(0).IsName("attack1"))
             {
-                if(animator.GetCurrentAnimatorStateInfo(0).normalizedTime >= 1)
+                if(animator.GetCurrentAnimatorStateInfo(0).normalizedTime - count >= 1)
                 {
-                    animator.Rebind();
+                    count++;
                     hit.transform.GetComponent<Control>().currentHealth -= attack;
                 }
             }
