@@ -7,6 +7,6 @@ public class UIManager : MonoBehaviour
 
     void Update()
     {
-        moneyText.text = DataManager.instance.money.ToString();
+        moneyText.text = DataManager.instance.money.ToString() + " $";
     }
 }
