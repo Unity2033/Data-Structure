@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Wizard
   m_EditorClassIdentifier: 
   price: 2500
-  priceTag: {fileID: 21300000, guid: e7f7e2d58f4ce864ca2e01e4e092382c, type: 3}
+  priceTag: {fileID: 21300000, guid: b0ffc6713ee23ddb08aa2a5e01776f72, type: 3}
   border: {fileID: 21300000, guid: 43fb8b0cf376ce64fad8c82d4da99977, type: 3}
   Picture: {fileID: 21300000, guid: 10a5ba06a5e55494d8cadb8b9ed59a47, type: 3}
