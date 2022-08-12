@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Castle
   - enemyBug
+  - Friendly
+  - Enemy
   layers:
   - Default
   - TransparentFX

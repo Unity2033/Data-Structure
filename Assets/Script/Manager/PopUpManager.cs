@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class PopUpManager : MonoBehaviour
 {
@@ -34,5 +35,7 @@ public class PopUpManager : MonoBehaviour
     public void CanclePopup()
     {
         Destroy(gameObject);
+        Time.timeScale = 1;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }
