@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6y7HJy+PsA5w0By/4Xt6Uv9FWveFdhFGL5JJcFrDpdSS/mUW8ncWGp5mGGDRY7xH+yLvpqL8QjnU4zT40DusZw==",
+  "dgSpecHash": "rzDZYIcAwTM94q4JXDKpkYzU0HkbAKQqZev8wjE7nckPySVoypZqnccY98s1WINOWXANTzkDiX6drAg5TEw8qg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Administrator\\Desktop\\Game\\Game.csproj",
+  "projectFilePath": "C:\\Users\\Administrator\\Desktop\\2D-UnityEngine\\Game\\Game.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

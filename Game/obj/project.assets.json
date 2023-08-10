@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\Game\\Game.csproj",
+      "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\2D-UnityEngine\\Game\\Game.csproj",
       "projectName": "Game",
-      "projectPath": "C:\\Users\\Administrator\\Desktop\\Game\\Game.csproj",
+      "projectPath": "C:\\Users\\Administrator\\Desktop\\2D-UnityEngine\\Game\\Game.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Administrator\\Desktop\\Game\\obj\\",
+      "outputPath": "C:\\Users\\Administrator\\Desktop\\2D-UnityEngine\\Game\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
