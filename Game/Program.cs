@@ -2,81 +2,125 @@
 
 namespace Game
 {
-    public class Cat
+    #region 인터페이스
+      // 클래스 내의 구성요소들의 구현부가 없고,
+      // 선언부의 집합으로만 이루어진 클래스입니다.
+    public interface IEffect
     {
-        private int age;
+        // 인터페이스는 멤버 변수를 사용할 수 없습니다.
+        public void Use();
+    }
+    #endregion
 
-        // 프로퍼티
-        public int Age
+    #region 추상 클래스
+    public abstract class Weapon
+    {
+        protected int attack;
+
+        // 추상 함수
+        public abstract void Attack();
+
+        // 일반 함수
+        public void Information()
         {
-            get 
-            { 
-                return age;
-            }
-            set
-            {
-                if (value >= 10)
-                {
-                    age = 10;
-                }
-                else
-                {
-                    age = value;
-                }
-            }
+            Console.WriteLine("Weapon 클래스");
         }
+    }
+    #endregion
+
+    public class Sword : Weapon, IEffect
+    {
+        public Sword()
+        {
+            attack = 10;
+            Console.WriteLine("공격력 : " + attack);
+        }
+
+        public override void Attack()
+        {
+            Console.WriteLine("검으로 공격");
+        }
+
+        // 상위 클래스에서 구현된 함수를 감추고, 하위 클래스에서
+        // 구현된 함수를 보여주는 것입니다.
+        //new public void Attack()
+        //{
+        //    Console.WriteLine("검으로 공격");
+        //    Use();
+        //}
+
+
+        public void Use()
+        {
+            Console.WriteLine("불꽃 발사!");
+        }
+    }
+
+    public class Armor
+    {
+        private int defense;
+
+        // 깊은 복사 
+        // 객체를 복사해서 새로운 객체를 만들어내는 것입니다.
+        public Armor DeepCopy()
+        {
+            Armor armor = new Armor();
+            armor.defense = defense;
+
+            return armor;
+        }
+
+        public int Defense
+        {
+            set { defense = value; }
+            get { return defense; }
+        }
+
     }
 
     internal class Program
     {
         static void Main(string[] args)
         {
-            #region 박싱과 언박싱
-            // 박싱 : 값 타입의 객체를 참조 타입으로 변환하는 작업입니다.
-            // int data = 100;
+            #region 인터페이스 
+            // Weapon weapon = new Weapon();
+            // weapon.Attack();
             // 
-            // // 박싱은 암묵적으로 형 변환이 발생합니다.
-            // object obj = data; // Boxing 
-            // Console.WriteLine("obj의 값 : " + obj);
+            // Sword sword = new Sword();
+            // sword.Attack();
             // 
-            // // 언박싱 : 참조 타입을 값 타입으로 변환하는 작업입니다.
-            // 
-            // // 언박싱은 명시적 형 변환을 통해서 작업을 해야 합니다.
-            // int x = (int)obj;
-            // Console.WriteLine("x의 값 : " + x);
-
-            // object [] array = new object[5];
-            // 
-            // array[0] = 10;
-            // array[1] = 6.5f;
-            // array[2] = 'A';
-            // array[3] = true;
-            // array[4] = "kim";
-            // 
-            // foreach(object element in array)
-            // {
-            //     Console.WriteLine(element);
-            // 
+            // IEffect ieffect = sword;
+            // ieffect.Use();
             #endregion
 
-            #region 프로퍼티
-            // Cat cat = new Cat();
-            // cat.Age = 3;
+            #region 얕은 복사와 깊은 복사
+            // 얕은 복사는 객체의 참조만 복사하는 것입니다.
+            // Armor armor1 = new Armor();
+            // armor1.Defense = 35;
             // 
-            // Console.WriteLine("cat의 나이 : " + cat.Age);
+            // // 객체를 얕은 복사하게 되면 스택에 있는 참조를 복사하는 것입니다.
+            // Armor armor2 = armor1;
+            // armor2.Defense = 65;
+            // 
+            // Armor armor3 = armor1.DeepCopy();
+            // armor3.Defense = 95;
+            // 
+            // Console.WriteLine("armor1.Defense : " + armor1.Defense);
+            // Console.WriteLine("armor2.Defense : " + armor2.Defense);
+            // Console.WriteLine("armor3.Defense : " + armor3.Defense);
             #endregion
 
-            #region 가비지 컬렉터
-               // 프로그램이 동적으로 할당했던 메모리 영역 중에서 
-               // 더 이상 참조되지 않은 메모리를 자동으로 해제하는 기능입니다.
-
-            if(true)
-            {
-                int [] ints = new int[2];
-            }
-
-
+            #region 추상 클래스
+            // Sword sword1 = new Sword();
+            // 
+            // Weapon weapon = sword1;
+            // 
+            // weapon.Attack();
+            // weapon.Information();
             #endregion
         }
     }
 }
+
+
+
