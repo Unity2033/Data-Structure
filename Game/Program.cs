@@ -2,122 +2,109 @@
 
 namespace Game
 {
-    #region 인터페이스
-      // 클래스 내의 구성요소들의 구현부가 없고,
-      // 선언부의 집합으로만 이루어진 클래스입니다.
-    public interface IEffect
+    public class Monster
     {
-        // 인터페이스는 멤버 변수를 사용할 수 없습니다.
-        public void Use();
-    }
-    #endregion
+        public int hp;
 
-    #region 추상 클래스
-    public abstract class Weapon
-    {
-        protected int attack;
-
-        // 추상 함수
-        public abstract void Attack();
-
-        // 일반 함수
-        public void Information()
+        protected void Move()
         {
-            Console.WriteLine("Weapon 클래스");
-        }
-    }
-    #endregion
-
-    public class Sword : Weapon, IEffect
-    {
-        public Sword()
-        {
-            attack = 10;
-            Console.WriteLine("공격력 : " + attack);
-        }
-
-        public override void Attack()
-        {
-            Console.WriteLine("검으로 공격");
-        }
-
-        // 상위 클래스에서 구현된 함수를 감추고, 하위 클래스에서
-        // 구현된 함수를 보여주는 것입니다.
-        //new public void Attack()
-        //{
-        //    Console.WriteLine("검으로 공격");
-        //    Use();
-        //}
-
-
-        public void Use()
-        {
-            Console.WriteLine("불꽃 발사!");
+            Console.WriteLine("몬스터 이동");
         }
     }
 
-    public class Armor
+    public class Goblin : Monster
     {
-        private int defense;
-
-        // 깊은 복사 
-        // 객체를 복사해서 새로운 객체를 만들어내는 것입니다.
-        public Armor DeepCopy()
+        #region base 키워드
+          // 하위 클래스에서 상위 클래스의 속성과 기능을
+          // 접근할 수 있는 지정자입니다.
+        public Goblin()
         {
-            Armor armor = new Armor();
-            armor.defense = defense;
-
-            return armor;
+            hp = 100;
+            base.Move();
         }
+        #endregion
 
-        public int Defense
+        new public void Move()
         {
-            set { defense = value; }
-            get { return defense; }
+            Console.WriteLine("고블린 이동");
         }
+    }
 
+    public class Slime : Monster
+    {
+        public Slime()
+        {
+            hp = 125;
+        }
+    }
+
+    public class Skeleton : Monster
+    { 
+        public Skeleton()
+        {
+            hp = 200;
+        }
+    }
+
+    public class Damageable
+    { 
+        public void Damage(Monster monster)
+        {
+            monster.hp -= 10;
+        }         
     }
 
     internal class Program
     {
         static void Main(string[] args)
         {
-            #region 인터페이스 
-            // Weapon weapon = new Weapon();
-            // weapon.Attack();
+            #region 업 캐스팅
+            // Damageable damageable = new Damageable();
             // 
-            // Sword sword = new Sword();
-            // sword.Attack();
+            // Goblin goblin = new Goblin();
+            // Slime slime = new Slime();
+            // Skeleton skeleton = new Skeleton();
             // 
-            // IEffect ieffect = sword;
-            // ieffect.Use();
+            // Console.WriteLine("고블린의 체력 : " + goblin.hp);
+            // Console.WriteLine("슬라임의 체력 : " + slime.hp);
+            // Console.WriteLine("스켈레톤의 체력 : " + skeleton.hp);
+            // 
+            // damageable.Damage(goblin);
+            // damageable.Damage(slime);
+            // damageable.Damage(skeleton);
+            // 
+            // Console.WriteLine("고블린의 체력 : " + goblin.hp);
+            // Console.WriteLine("슬라임의 체력 : " + slime.hp);
+            // Console.WriteLine("스켈레톤의 체력 : " + skeleton.hp);
             #endregion
 
-            #region 얕은 복사와 깊은 복사
-            // 얕은 복사는 객체의 참조만 복사하는 것입니다.
-            // Armor armor1 = new Armor();
-            // armor1.Defense = 35;
+            #region 파일 입출력
+
+            // 파일 쓰기
+            // FileStream fileStream = new FileStream("data.txt", FileMode.Create);
             // 
-            // // 객체를 얕은 복사하게 되면 스택에 있는 참조를 복사하는 것입니다.
-            // Armor armor2 = armor1;
-            // armor2.Defense = 65;
+            // StreamWriter streamWrite = new StreamWriter(fileStream);
             // 
-            // Armor armor3 = armor1.DeepCopy();
-            // armor3.Defense = 95;
+            // streamWrite.Write("HELLO");
+            // streamWrite.Write(25);
             // 
-            // Console.WriteLine("armor1.Defense : " + armor1.Defense);
-            // Console.WriteLine("armor2.Defense : " + armor2.Defense);
-            // Console.WriteLine("armor3.Defense : " + armor3.Defense);
+            // streamWrite.Close();
+
+            // 파일 읽기
+            // FileStream file = new FileStream("data.txt", FileMode.Open, FileAccess.Read);
+            // StreamReader streamReader = new StreamReader(file);
+            // 
+            // Console.WriteLine(streamReader.ReadLine());
+            // 
+            // streamReader.Close();
             #endregion
 
-            #region 추상 클래스
-            // Sword sword1 = new Sword();
-            // 
-            // Weapon weapon = sword1;
-            // 
-            // weapon.Attack();
-            // weapon.Information();
-            #endregion
+            int x = int.Parse((Console.ReadLine()));
+            int y = int.Parse((Console.ReadLine()));
+
+            
+
+
         }
     }
 }
