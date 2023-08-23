@@ -57,6 +57,52 @@ namespace Game
 
             itemManager.UseAll();
             #endregion
+
+            #region 리스코프 치환 원칙
+            // 상위 클래스와 하위 클래스가 있을 때 상위 클래스 객체를
+            // 호출하는 동작에서 하위 클래스 객체가 상위 클래스 객체를
+            // 완전하게 대체할 수 있어야 합니다.
+
+            // Rectangle rectangle = new Rectangle();
+            // rectangle.SetWidth(5);
+            // rectangle.SetHeight(3);
+            // 
+            // Console.WriteLine("직사각형의 넓이 : " + rectangle.GetArea());
+            // 
+            // Square square = new Square();
+            // square.SetSide(3);
+            // 
+            // Console.WriteLine("정사각형의 넓이 : " + square.GetArea());
+            #endregion
+
+            #region 가상 함수
+
+            //키입력값받는 변수
+            ConsoleKeyInfo consoleKey;
+
+            while (true)//무한루프    
+            {
+
+                //누르는 키를 입력받아 true값이면 넣음
+                consoleKey = Console.ReadKey(true);
+
+
+                switch (consoleKey.Key)
+                {
+                    case ConsoleKey.NumPad1:
+                        Console.WriteLine("1");
+                        break;
+                    case ConsoleKey.NumPad2:
+                        Console.WriteLine("2");
+                        break;
+                    case ConsoleKey.NumPad3:
+                        Console.WriteLine("3");
+                        break;
+                    default: break;
+                }
+            }
+
+            #endregion
         }
     }
 }
