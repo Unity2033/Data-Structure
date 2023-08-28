@@ -6,10 +6,24 @@ using System.Threading.Tasks;
 
 namespace Game
 {
+  
+
     internal class Cursor
     {
-        int x;
-        int y;
+        private int x;
+        private int y;
+
+        public Function function;
+
+        public int X
+        {
+            get { return x; }
+        }
+
+        public int Y
+        {
+            get { return y; }
+        }
 
         ConsoleKeyInfo consoleKey;
 
@@ -28,24 +42,27 @@ namespace Game
             switch (consoleKey.Key)
             {
                 case ConsoleKey.LeftArrow : if (x > 0)
-                    {
-                        x -= 2;
-                    }
-                    break;
+                {
+                    x -= 2;
+                }
+                break;
                 case ConsoleKey.RightArrow : if (x < 8)
-                    {
-                        x += 2;
-                    }
-                    break;
+                {
+                    x += 2;
+                }
+                break;
                 case ConsoleKey.UpArrow : if (y > 0)
-                    {
-                        y--;
-                    }
-                    break;
+                {
+                    y--;
+                }
+                break;
                 case ConsoleKey.DownArrow : if (y < 2)
-                    {
-                        y++;
-                    }
+                {
+                    y++;
+                }
+                break;
+
+                case ConsoleKey.Spacebar : function();
                     break;
             }
         }

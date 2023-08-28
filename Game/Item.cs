@@ -16,5 +16,14 @@ namespace Game
             this.price = price;
             this.name = name;
         }
+
+        public void Information()
+        {
+            Console.SetCursorPosition(20, 10);
+            Console.WriteLine("name : " + name);
+
+            Console.SetCursorPosition(20, 12);
+            Console.WriteLine("price : " + price);
+        }
     }
 }
