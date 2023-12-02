@@ -1,0 +1,15 @@
+C:\Users\Administrator\Desktop\Class1th\bin\Debug\net6.0\Class1th.exe
+C:\Users\Administrator\Desktop\Class1th\bin\Debug\net6.0\Class1th.deps.json
+C:\Users\Administrator\Desktop\Class1th\bin\Debug\net6.0\Class1th.runtimeconfig.json
+C:\Users\Administrator\Desktop\Class1th\bin\Debug\net6.0\Class1th.dll
+C:\Users\Administrator\Desktop\Class1th\bin\Debug\net6.0\Class1th.pdb
+C:\Users\Administrator\Desktop\Class1th\obj\Debug\net6.0\Class1th.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\Class1th\obj\Debug\net6.0\Class1th.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\Class1th\obj\Debug\net6.0\Class1th.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\Class1th\obj\Debug\net6.0\Class1th.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\Class1th\obj\Debug\net6.0\Class1th.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Class1th\obj\Debug\net6.0\Class1th.dll
+C:\Users\Administrator\Desktop\Class1th\obj\Debug\net6.0\refint\Class1th.dll
+C:\Users\Administrator\Desktop\Class1th\obj\Debug\net6.0\Class1th.pdb
+C:\Users\Administrator\Desktop\Class1th\obj\Debug\net6.0\Class1th.genruntimeconfig.cache
+C:\Users\Administrator\Desktop\Class1th\obj\Debug\net6.0\ref\Class1th.dll
