@@ -1,0 +1,15 @@
+C:\Users\Administrator\Desktop\새 폴더\Class1th\Class2th\bin\Debug\net6.0\Class2th.exe
+C:\Users\Administrator\Desktop\새 폴더\Class1th\Class2th\bin\Debug\net6.0\Class2th.deps.json
+C:\Users\Administrator\Desktop\새 폴더\Class1th\Class2th\bin\Debug\net6.0\Class2th.runtimeconfig.json
+C:\Users\Administrator\Desktop\새 폴더\Class1th\Class2th\bin\Debug\net6.0\Class2th.dll
+C:\Users\Administrator\Desktop\새 폴더\Class1th\Class2th\bin\Debug\net6.0\Class2th.pdb
+C:\Users\Administrator\Desktop\새 폴더\Class1th\Class2th\obj\Debug\net6.0\Class2th.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\새 폴더\Class1th\Class2th\obj\Debug\net6.0\Class2th.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\새 폴더\Class1th\Class2th\obj\Debug\net6.0\Class2th.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\새 폴더\Class1th\Class2th\obj\Debug\net6.0\Class2th.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\새 폴더\Class1th\Class2th\obj\Debug\net6.0\Class2th.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\새 폴더\Class1th\Class2th\obj\Debug\net6.0\Class2th.dll
+C:\Users\Administrator\Desktop\새 폴더\Class1th\Class2th\obj\Debug\net6.0\refint\Class2th.dll
+C:\Users\Administrator\Desktop\새 폴더\Class1th\Class2th\obj\Debug\net6.0\Class2th.pdb
+C:\Users\Administrator\Desktop\새 폴더\Class1th\Class2th\obj\Debug\net6.0\Class2th.genruntimeconfig.cache
+C:\Users\Administrator\Desktop\새 폴더\Class1th\Class2th\obj\Debug\net6.0\ref\Class2th.dll
