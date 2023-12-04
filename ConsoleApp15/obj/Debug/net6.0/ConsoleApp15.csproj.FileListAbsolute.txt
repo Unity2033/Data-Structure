@@ -1,0 +1,15 @@
+C:\Users\Administrator\Desktop\CSharp\ConsoleApp15\bin\Debug\net6.0\ConsoleApp15.exe
+C:\Users\Administrator\Desktop\CSharp\ConsoleApp15\bin\Debug\net6.0\ConsoleApp15.deps.json
+C:\Users\Administrator\Desktop\CSharp\ConsoleApp15\bin\Debug\net6.0\ConsoleApp15.runtimeconfig.json
+C:\Users\Administrator\Desktop\CSharp\ConsoleApp15\bin\Debug\net6.0\ConsoleApp15.dll
+C:\Users\Administrator\Desktop\CSharp\ConsoleApp15\bin\Debug\net6.0\ConsoleApp15.pdb
+C:\Users\Administrator\Desktop\CSharp\ConsoleApp15\obj\Debug\net6.0\ConsoleApp15.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\CSharp\ConsoleApp15\obj\Debug\net6.0\ConsoleApp15.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\CSharp\ConsoleApp15\obj\Debug\net6.0\ConsoleApp15.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\CSharp\ConsoleApp15\obj\Debug\net6.0\ConsoleApp15.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\CSharp\ConsoleApp15\obj\Debug\net6.0\ConsoleApp15.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\CSharp\ConsoleApp15\obj\Debug\net6.0\ConsoleApp15.dll
+C:\Users\Administrator\Desktop\CSharp\ConsoleApp15\obj\Debug\net6.0\refint\ConsoleApp15.dll
+C:\Users\Administrator\Desktop\CSharp\ConsoleApp15\obj\Debug\net6.0\ConsoleApp15.pdb
+C:\Users\Administrator\Desktop\CSharp\ConsoleApp15\obj\Debug\net6.0\ConsoleApp15.genruntimeconfig.cache
+C:\Users\Administrator\Desktop\CSharp\ConsoleApp15\obj\Debug\net6.0\ref\ConsoleApp15.dll
