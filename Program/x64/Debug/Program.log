@@ -1,2 +1,30 @@
 ﻿  Solution.c
+C:\Users\Administrator\Desktop\C-Language\Program\Solution.c(54,9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+  C:\Users\Administrator\Desktop\C-Language\Program\Solution.c(54,9):
+  consider using '%zd' in the format string
+  
+C:\Users\Administrator\Desktop\C-Language\Program\Solution.c(55,9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+  C:\Users\Administrator\Desktop\C-Language\Program\Solution.c(55,9):
+  consider using '%zd' in the format string
+  
+C:\Users\Administrator\Desktop\C-Language\Program\Solution.c(56,9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+  C:\Users\Administrator\Desktop\C-Language\Program\Solution.c(56,9):
+  consider using '%zd' in the format string
+  
+C:\Users\Administrator\Desktop\C-Language\Program\Solution.c(57,9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+  C:\Users\Administrator\Desktop\C-Language\Program\Solution.c(57,9):
+  consider using '%zd' in the format string
+  
+C:\Users\Administrator\Desktop\C-Language\Program\Solution.c(58,9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+  C:\Users\Administrator\Desktop\C-Language\Program\Solution.c(58,9):
+  consider using '%zd' in the format string
+  
+C:\Users\Administrator\Desktop\C-Language\Program\Solution.c(59,9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+  C:\Users\Administrator\Desktop\C-Language\Program\Solution.c(59,9):
+  consider using '%zd' in the format string
+  
+C:\Users\Administrator\Desktop\C-Language\Program\Solution.c(60,9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+  C:\Users\Administrator\Desktop\C-Language\Program\Solution.c(60,9):
+  consider using '%zd' in the format string
+  
   Program.vcxproj -> C:\Users\Administrator\Desktop\C-Language\Program\x64\Debug\Program.exe
