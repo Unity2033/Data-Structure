@@ -2,64 +2,34 @@
 
 void main()
 {
-#pragma region 포인터
-	// 메모리의 주소 값을 저장할 수 있는 변수입니다.
+#pragma region 배열
+	// 같은 자료형의 변수들로 이루어진 유한 집합입니다.
 
-	//int data = 10;
-	//float pi = 3.14f;
+	int array[5];
 
-	//// 8 byte 
-	//// [NULL]
+	// 배열의 경우 첫 번째 원소는 0부터 시작합니다.
 
-	//int * ptr = NULL;
+	for (int i = 0; i < 5; i++)
+	{
+		array[i] = (i + 1) * 100;
 
-	//// 포인터 변수도 자신의 메모리 공간을 가지고 있으며,
-	//// 포인터 변수에 변수의 주소를 저장하게 되면 해당 변수의
-	//// 시작 주소를 가리키게 됩니다.
+		printf("array[%d]의 값 : %d\n", i, array[i]);
+	}
 
-	////     ptr 변수           
-	//// [data의 시작주소]	<---- data의 시작 주소
-	//ptr = &data;
+	// 배열은 원하는 원소에 원하는 값을 저장할 수 있으며,
+	// 배열의 크기는 컴파일이 되는 시점부터 고정된 메모리
+	// 공간을 가지게 됩니다.
+	                                
+	int list[] = { 10,20,30,45 };
 
-	//// 변수의 주소는 프로그램이 실행될 때마다 변경되며,
-	//// 포인터가 가리키는 메모리 공간의 자료형은 알 수 없으므로
-	//// 포인터가 가리키는 메모리의 자료형으로 선언해주어야 합니다.
+	int size = sizeof(list) / sizeof(int);
 
-	//printf("data 변수의 메모리 주소 : %p\n", &data);
-	//printf("ptr 변수의 값 : %p\n", ptr);
-	//printf("ptr 변수의 메모리 주소 : %p\n", &ptr);
+	printf("배열의 사이즈 : %d\n", size);
 
-	//printf("data 변수의 값 : %d\n", data);
-	//printf("ptr 변수가 가리키는 값 : %d\n", *ptr);
-
-	//// 포인터 변수를 저장하기 위해 주소 값을 저장할 변수의 자료형과
-	//// 포인터 변수의 자료형이 일치해야 합니다.
-
-	//ptr = &pi;
-
-	//printf("pi 변수의 값 : %f\n", pi);
-	//printf("ptr 변수가 가리키는 값 : %f\n", *ptr);
-
-	// 포인터 변수의 크기는 중앙 처리 장치가 한 번에
-	// 처리할 수 있는 크기로 정해지며, 한 번에 처리할 
-	// 수 있는 크기는 운영체제에 따라 크기가 결정됩니다.
+	// 배열의 크기는 생략할 수 있으며, 초기화 목록에서
+	// 설정한 요소에 따라 배열의 크기가 결정됩니다.
 
 #pragma endregion
 
-#pragma region sizeof 연산자
-	// 피연산자의 크기를 바이트 단위로 반환하는 연산자입니다.
-
-	int * pointer = NULL;
-												
-	printf("char 자료형의 크기 : %d\n" ,   sizeof(char));
-	printf("short 자료형의 크기 : %d\n",   sizeof(short));
-	printf("int 자료형의 크기 : %d\n"  ,   sizeof(int));
-	printf("long 자료형의 크기 : %d\n" ,   sizeof(long));
-	printf("float 자료형의 크기 : %d\n" ,  sizeof(float));
-	printf("double 자료형의 크기 : %d\n",  sizeof(double));
-	printf("pointer 자료형의 크기 : %d\n", sizeof(pointer));
-
-
-#pragma endregion
 
 }
