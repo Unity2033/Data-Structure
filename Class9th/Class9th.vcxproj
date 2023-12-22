@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{7beb6051-bc69-4aa8-9bc2-cb98f7abafab}</ProjectGuid>
-    <RootNamespace>Program</RootNamespace>
+    <ProjectGuid>{f7fe9267-d903-4042-8a3c-11e32882edcb}</ProjectGuid>
+    <RootNamespace>Class9th</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,10 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Solution.c" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Function.h" />
+    <ClCompile Include="Source.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
