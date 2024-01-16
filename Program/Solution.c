@@ -1,62 +1,39 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
-#include <conio.h>   // Key 
-#include <windows.h> // Coordinate
+#include <string.h>
 
-#define UP 72
-#define LEFT 75
-#define RIGHT 77
-#define DOWN 80
+#define WIDTH 11
+#define HEIGHT 11
 
-void GotoXY(int x, int y)
+char maze[WIDTH][HEIGHT];
+
+void CreateMaze()
 {
-	// x, y 좌표 설정
-	COORD position = { x, y };
+	// 0 : 빈 공간 (" ")
+	// 1 : 벽 (□)
+	// 2 : 탈출구 (◎)
 
-	// 커서 이동 함수
-	SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), position);
+	strcpy(maze[0],  "1111111111");
+	strcpy(maze[1],  "1100111101");
+	strcpy(maze[2],  "1110111001");
+	strcpy(maze[3],  "1110011011");
+	strcpy(maze[4],  "1111010011");
+	strcpy(maze[5],  "1100000111");
+	strcpy(maze[6],  "1101111111");
+	strcpy(maze[7],  "1100000111");
+	strcpy(maze[8],  "1111110111");
+	strcpy(maze[9],  "1110000021");
+	strcpy(maze[9],  "1110011111");
+	strcpy(maze[10], "1111111111");
+}
+
+void Render()
+{
+
+
 }
 
 int main()
 {
-	char key = 0;
-
-	int x = 2;
-	int y = 5;
-
-	GotoXY(x, y);
-	printf("☆");
-
-	while (1)
-	{
-		if (_kbhit()) // 키보드 입력 확인 (true/false)
-		{
-			key = _getch(); // key 입력을 받아주는 함수
-
-			system("cls");
-
-			if (key == -32)
-			{
-				key = _getch();
-			}
-
-			switch (key)
-			{
-				case UP    : if (y > 0) { y--; }
-					break;
-				case LEFT  : if (x > 0) { x -= 2; }
-					break;
-				case RIGHT : x += 2;
-					break;
-				case DOWN  : y++;
-					break;
-			}
-
-			GotoXY(x, y);
-			printf("☆");
-		}
-	}
-
-
 	return 0;
 }
