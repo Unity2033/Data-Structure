@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "+GtwGtYY2+L/vpzi4WarEzjV9OgeaPz/wZapvsKQBXUlMKYVfgHBXBOW6uskZrgu7NLAUqvRxTc8j9ODHLUnxA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Administrator\\Desktop\\SBS-Game-Academy\\Class4th (Iteration Statement)\\Class4th (Iteration Statement).csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.29\\microsoft.windowsdesktop.app.ref.6.0.29.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.29\\microsoft.netcore.app.ref.6.0.29.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.29\\microsoft.aspnetcore.app.ref.6.0.29.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.29\\microsoft.netcore.app.host.win-x64.6.0.29.nupkg.sha512"
+  ],
+  "logs": []
+}

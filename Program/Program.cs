@@ -1,4 +1,6 @@
-﻿namespace Program
+﻿using System.Collections.Specialized;
+
+namespace Program
 {
     internal class Program
     {
