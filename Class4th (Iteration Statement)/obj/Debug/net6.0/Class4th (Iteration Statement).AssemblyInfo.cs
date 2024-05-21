@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Class4th (Iteration Statement)")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8b159330743fbf5f8b327ba42e38a78fbef3051c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ed7dde95de572e1b7eed764f1fc1fcbe3337e6b0")]
 [assembly: System.Reflection.AssemblyProductAttribute("Class4th (Iteration Statement)")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Class4th (Iteration Statement)")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
