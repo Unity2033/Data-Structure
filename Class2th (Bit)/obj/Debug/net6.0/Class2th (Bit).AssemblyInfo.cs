@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Class2th (Bit)")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ed7dde95de572e1b7eed764f1fc1fcbe3337e6b0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+57f0046dc58be1dcca5386c16e0d924520173780")]
 [assembly: System.Reflection.AssemblyProductAttribute("Class2th (Bit)")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Class2th (Bit)")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

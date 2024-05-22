@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Class6th (Function)")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Class7th (Class)")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+57f0046dc58be1dcca5386c16e0d924520173780")]
-[assembly: System.Reflection.AssemblyProductAttribute("Class6th (Function)")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Class6th (Function)")]
+[assembly: System.Reflection.AssemblyProductAttribute("Class7th (Class)")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Class7th (Class)")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // MSBuild WriteCodeFragment 클래스에서 생성되었습니다.
