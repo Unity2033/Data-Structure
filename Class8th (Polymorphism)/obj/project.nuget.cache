@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "jsWOoNfayCuDUKEtsvbvgp/YAKU4H23xVnjRIwhnQ62LR2JRd28YAOpbp3lSf1+h5jx/XDWfoa2DiC4N3GzmxA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Administrator\\Desktop\\SBS-Game-Academy\\Class8th (Polymorphism)\\Class8th (Polymorphism).csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.29\\microsoft.windowsdesktop.app.ref.6.0.29.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.29\\microsoft.netcore.app.ref.6.0.29.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.29\\microsoft.aspnetcore.app.ref.6.0.29.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.29\\microsoft.netcore.app.host.win-x64.6.0.29.nupkg.sha512"
+  ],
+  "logs": []
+}

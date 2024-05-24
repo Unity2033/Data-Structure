@@ -1,4 +1,4 @@
-﻿namespace Program
+﻿namespace Class8th__Polymorphism_
 {
     internal class Unit
     {

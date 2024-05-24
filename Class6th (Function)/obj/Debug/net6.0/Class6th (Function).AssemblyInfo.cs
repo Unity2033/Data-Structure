@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Class6th (Function)")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+57f0046dc58be1dcca5386c16e0d924520173780")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1afe178bf15a0a53489568c76e20d42e249ed816")]
 [assembly: System.Reflection.AssemblyProductAttribute("Class6th (Function)")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Class6th (Function)")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
