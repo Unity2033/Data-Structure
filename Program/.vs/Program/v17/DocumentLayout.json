@@ -7,6 +7,9 @@
       "RelativeMoniker": "D:0:0:{82D2A80B-E0C4-4120-9A43-88C188E161F4}|Program.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{4717A2BA-DBC0-4795-9FF4-62E9DAE680C9}|..\\Class10th (Collection)\\Class10th (Collection).csproj|c:\\users\\administrator\\desktop\\sbs-game-academy\\class10th (collection)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{377F4A7F-50BF-4427-A351-1D7631F54763}|..\\Class9th (Random)\\Class9th (Random).csproj|c:\\users\\administrator\\desktop\\sbs-game-academy\\class9th (random)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -69,24 +72,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 321,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SBS-Game-Academy\\Class10th (Collection)\\Program.cs",
+              "RelativeDocumentMoniker": "..\\Class10th (Collection)\\Program.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SBS-Game-Academy\\Class10th (Collection)\\Program.cs",
+              "RelativeToolTip": "..\\Class10th (Collection)\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T06:41:30.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SBS-Game-Academy\\Class9th (Random)\\Program.cs",
               "RelativeDocumentMoniker": "..\\Class9th (Random)\\Program.cs",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\SBS-Game-Academy\\Class9th (Random)\\Program.cs",
               "RelativeToolTip": "..\\Class9th (Random)\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAAAAAA",
+              "ViewState": "AQIAAEYAAAAAAAAAAAAiwB4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-24T06:37:53.762Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Barracks.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SBS-Game-Academy\\Class8th (Polymorphism)\\Barracks.cs",
               "RelativeDocumentMoniker": "..\\Class8th (Polymorphism)\\Barracks.cs",
@@ -94,12 +110,11 @@
               "RelativeToolTip": "..\\Class8th (Polymorphism)\\Barracks.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T03:06:59.319Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-24T03:06:59.319Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Firebet.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SBS-Game-Academy\\Class8th (Polymorphism)\\Firebet.cs",
               "RelativeDocumentMoniker": "..\\Class8th (Polymorphism)\\Firebet.cs",
@@ -107,12 +122,11 @@
               "RelativeToolTip": "..\\Class8th (Polymorphism)\\Firebet.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T03:06:54.062Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-24T03:06:54.062Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Ghost.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SBS-Game-Academy\\Class8th (Polymorphism)\\Ghost.cs",
               "RelativeDocumentMoniker": "..\\Class8th (Polymorphism)\\Ghost.cs",
@@ -120,12 +134,11 @@
               "RelativeToolTip": "..\\Class8th (Polymorphism)\\Ghost.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T03:06:47.258Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-24T03:06:47.258Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Unit.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SBS-Game-Academy\\Class8th (Polymorphism)\\Unit.cs",
               "RelativeDocumentMoniker": "..\\Class8th (Polymorphism)\\Unit.cs",
@@ -133,12 +146,11 @@
               "RelativeToolTip": "..\\Class8th (Polymorphism)\\Unit.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T03:05:52.295Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-24T03:05:52.295Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Keyboard.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SBS-Game-Academy\\Class8th (Polymorphism)\\Keyboard.cs",
               "RelativeDocumentMoniker": "..\\Class8th (Polymorphism)\\Keyboard.cs",
@@ -146,12 +158,11 @@
               "RelativeToolTip": "..\\Class8th (Polymorphism)\\Keyboard.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T03:06:17.71Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-24T03:06:17.71Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Marine.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SBS-Game-Academy\\Class8th (Polymorphism)\\Marine.cs",
               "RelativeDocumentMoniker": "..\\Class8th (Polymorphism)\\Marine.cs",
@@ -159,12 +170,11 @@
               "RelativeToolTip": "..\\Class8th (Polymorphism)\\Marine.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T03:05:55.606Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-24T03:05:55.606Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SBS-Game-Academy\\Class8th (Polymorphism)\\Program.cs",
               "RelativeDocumentMoniker": "..\\Class8th (Polymorphism)\\Program.cs",
@@ -172,12 +182,11 @@
               "RelativeToolTip": "..\\Class8th (Polymorphism)\\Program.cs",
               "ViewState": "AQIAAEEAAAAAAAAAAAAgwKEAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T03:04:00.637Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-24T03:04:00.637Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Program.csproj",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SBS-Game-Academy\\Program\\Program.csproj",
               "RelativeDocumentMoniker": "Program.csproj",
@@ -185,12 +194,11 @@
               "RelativeToolTip": "Program.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAADwvwkAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-05-23T03:08:50.426Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-23T03:08:50.426Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Class3th (Conditional Statement).csproj",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SBS-Game-Academy\\Class3th (Conditional Statement)\\Class3th (Conditional Statement).csproj",
               "RelativeDocumentMoniker": "..\\Class3th (Conditional Statement)\\Class3th (Conditional Statement).csproj",
@@ -198,12 +206,11 @@
               "RelativeToolTip": "..\\Class3th (Conditional Statement)\\Class3th (Conditional Statement).csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-05-16T06:39:13.132Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-16T06:39:13.132Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SBS-Game-Academy\\Class3th (Conditional Statement)\\Program.cs",
               "RelativeDocumentMoniker": "..\\Class3th (Conditional Statement)\\Program.cs",
@@ -221,27 +228,26 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\SBS-Game-Academy\\Program\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-13T04:38:01.117Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Class8th (Polymorphism)",
+              "DocumentIndex": 3,
+              "Title": "Class8th (Polymorphism).csproj",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SBS-Game-Academy\\Class8th (Polymorphism)\\Class8th (Polymorphism).csproj",
               "RelativeDocumentMoniker": "..\\Class8th (Polymorphism)\\Class8th (Polymorphism).csproj",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\SBS-Game-Academy\\Class8th (Polymorphism)\\Class8th (Polymorphism).csproj",
               "RelativeToolTip": "..\\Class8th (Polymorphism)\\Class8th (Polymorphism).csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-05-24T03:11:15.82Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-24T03:11:15.82Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SBS-Game-Academy\\Class4th (Iteration Statement)\\Program.cs",
               "RelativeDocumentMoniker": "..\\Class4th (Iteration Statement)\\Program.cs",
@@ -253,7 +259,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SBS-Game-Academy\\Class2th (Bit)\\Program.cs",
               "RelativeDocumentMoniker": "..\\Class2th (Bit)\\Program.cs",
@@ -265,7 +271,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SBS-Game-Academy\\Class5th (Arrangement)\\Program.cs",
               "RelativeDocumentMoniker": "..\\Class5th (Arrangement)\\Program.cs",
@@ -277,7 +283,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SBS-Game-Academy\\Class6th (Function)\\Program.cs",
               "RelativeDocumentMoniker": "..\\Class6th (Function)\\Program.cs",
@@ -289,7 +295,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SBS-Game-Academy\\Class7th (Class)\\Program.cs",
               "RelativeDocumentMoniker": "..\\Class7th (Class)\\Program.cs",
@@ -301,7 +307,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SBS-Game-Academy\\Class1th (Variable)\\Program.cs",
               "RelativeDocumentMoniker": "..\\Class1th (Variable)\\Program.cs",
