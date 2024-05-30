@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Class5th (Arrangement)")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c0759b6ff281d517e4c5f63598442bb91572bcab")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2df29e79c7cc11b25327c72eebafa95ac83fdde8")]
 [assembly: System.Reflection.AssemblyProductAttribute("Class5th (Arrangement)")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Class5th (Arrangement)")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
