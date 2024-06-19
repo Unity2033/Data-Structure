@@ -7,6 +7,9 @@
       "RelativeMoniker": "D:0:0:{1EED8E39-8E45-4371-946B-35E2C436583F}|Program.vcxproj|solutionrelative:Program.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{AF930F60-2213-47FF-949C-75B82DDBBE17}|..\\Class6th (Circle Queue)\\Class6th (Circle Queue).vcxproj|C:\\Users\\Administrator\\Desktop\\SBS-Game-Academy\\Class6th (Circle Queue)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6995D28C-6080-466B-9193-2A8481429E7B}|..\\Class5th (Linear Queue)\\Class5th (Linear Queue).vcxproj|C:\\Users\\Administrator\\Desktop\\SBS-Game-Academy\\Class5th (Linear Queue)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
@@ -32,11 +35,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Source.cpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SBS-Game-Academy\\Class6th (Circle Queue)\\Source.cpp",
+              "RelativeDocumentMoniker": "..\\Class6th (Circle Queue)\\Source.cpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SBS-Game-Academy\\Class6th (Circle Queue)\\Source.cpp",
+              "RelativeToolTip": "..\\Class6th (Circle Queue)\\Source.cpp",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAiwF4AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-19T09:19:26.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SBS-Game-Academy\\Class5th (Linear Queue)\\Source.cpp",
               "RelativeDocumentMoniker": "..\\Class5th (Linear Queue)\\Source.cpp",
@@ -44,12 +60,11 @@
               "RelativeToolTip": "..\\Class5th (Linear Queue)\\Source.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAG4AAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-06-18T10:16:52.898Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-18T10:16:52.898Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SBS-Game-Academy\\Class4th (Stack)\\Source.cpp",
               "RelativeDocumentMoniker": "..\\Class4th (Stack)\\Source.cpp",
@@ -57,12 +72,11 @@
               "RelativeToolTip": "..\\Class4th (Stack)\\Source.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-06-18T09:16:43.316Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-18T09:16:43.316Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SBS-Game-Academy\\Class3th (Circle Linked List)\\Source.cpp",
               "RelativeDocumentMoniker": "..\\Class3th (Circle Linked List)\\Source.cpp",
@@ -74,7 +88,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SBS-Game-Academy\\Class2th (Double Linked List)\\Source.cpp",
               "RelativeDocumentMoniker": "..\\Class2th (Double Linked List)\\Source.cpp",
@@ -86,7 +100,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "list",
               "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\list",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\list",
@@ -98,7 +112,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SBS-Game-Academy\\Class1th (Single Linked List)\\Source.cpp",
               "RelativeDocumentMoniker": "..\\Class1th (Single Linked List)\\Source.cpp",
@@ -116,7 +130,7 @@
               "RelativeDocumentMoniker": "Program.cpp",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\SBS-Game-Academy\\Program\\Program.cpp",
               "RelativeToolTip": "Program.cpp",
-              "ViewState": "AQIAABUAAAAAAAAAAADwvxsAAAADAAAA",
+              "ViewState": "AQIAABQAAAAAAAAAAAAIwB4AAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-06-10T09:02:36.641Z",
               "EditorCaption": ""
