@@ -1,74 +1,50 @@
 ﻿#include <iostream>
 
+#pragma warnings(disable : 4996)
+
 using namespace std;
 
-template <typename T>
-class Vector
+class String
 {
 private:
 	int size;
-	int capacity;
+	char * container;
 
-	T * container;
 public:
-	Vector()
+	String()
 	{
 		size = 0;
-		capacity = 0;
-
 		container = nullptr;
 	}
 
-	void PushBack(T data)
+	void operator = (const char * content)
 	{
-		if (capacity <= 0)
+		int arraySize = strlen(content) + 1;
+
+		size = strlen(content);
+
+		if (container == nullptr)
 		{
-			Resize(1);
+			container = new char[arraySize];
+
+			for (int i = 0; i < arraySize; i++)
+			{
+				container[i] = content[i];
+			}
 		}
-		else if (size >= capacity)
+		else
 		{
-			Resize(capacity * 2);
+			char * newContainer = new char[arraySize];
+
+			for (int i = 0; i < arraySize; i++)
+			{
+				newContainer[i] = content[i];
+			}
+
+			delete container;
+
+			container = newContainer;
 		}
-
-		container[size++] = data;
-	}
-
-	void Resize(int newSize)
-	{
-		// 1. capacity에 새로운 size값을 저장합니다.
-		capacity = newSize;
-
-		// 2. 새로운 포인터 변수를 생성해서 새롭게 만들어진
-		//    메모리 공간을 가리키도록 합니다.
-		T * newContainer = new T[capacity];
-
-		// 3. 새로운 메모리 공간의 값을 초기화합니다.
-		for (int i = 0; i < capacity; i++)
-		{
-			newContainer[i] = NULL;
-		}
-
-		// 4. 기존 배열에 있는 값을 복사해서 새로운 배열에
-		//    넣어줍니다.
-		for (int i = 0; i < size; i++)
-		{
-			newContainer[i] = container[i];
-		}				 
-
-		// 5. 기존 배열의 메모리 해제합니다.
-		if (container != nullptr)
-		{
-			delete [] container;
-		}
-
-		// 6. 기존에 배열을 가리키던 포인터 변수의 값을
-		//    새로운 배열의 시작 주소로 가리킵니다.
-		container = newContainer;			  
-	}
-
-	T & operator [] (const int& index)
-	{
-		return container[index];
 	}
 
 	int & Size()
@@ -76,31 +52,34 @@ public:
 		return size;
 	}
 
-	~Vector()
+	char & operator [] (int index)
 	{
-		if (container != nullptr)
-		{
-			delete [] container;
-		}
+		return container[index];
 	}
+
 };
+
 
 int main()
 {
-	Vector<int> vector;
+	// String string;
+	// 
+	// string = "Janna";
+	// 
+	// cout << "string의 크기 : " << string.Size() << endl;
+	// 
+	// string = "Alistar";
+	// 
+	// for (int i = 0; i < string.Size(); i++)
+	// {
+	// 	cout << string[i];
+	// }
 
-	vector.PushBack(10);
-	vector.PushBack(20);
-	vector.PushBack(30);
+	string name;
 
-	for (int i = 0; i < vector.Size(); i++)
-	{
-		cout << vector[i] << endl;
-	}
+	name = "qe";
 
-
-
-
+	cout << "문자열이 같나요? " << name.compare("qd");
 
 	return 0;
 }
