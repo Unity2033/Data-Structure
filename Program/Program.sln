@@ -29,6 +29,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class11th (Heap)", "..\Clas
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class12th (Graph Adjacency Matrix)", "..\Class12th (Graph Adjacency Matrix)\Class12th (Graph Adjacency Matrix).vcxproj", "{9D3EB0C2-A371-4E47-9086-A993784ADC1D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class13th (Graph Adjancency List)", "..\Class13th (Graph Adjancency List)\Class13th (Graph Adjancency List).vcxproj", "{01E96E53-A3CB-48F5-839F-63CAB8F865DE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -141,6 +143,14 @@ Global
 		{9D3EB0C2-A371-4E47-9086-A993784ADC1D}.Release|x64.Build.0 = Release|x64
 		{9D3EB0C2-A371-4E47-9086-A993784ADC1D}.Release|x86.ActiveCfg = Release|Win32
 		{9D3EB0C2-A371-4E47-9086-A993784ADC1D}.Release|x86.Build.0 = Release|Win32
+		{01E96E53-A3CB-48F5-839F-63CAB8F865DE}.Debug|x64.ActiveCfg = Debug|x64
+		{01E96E53-A3CB-48F5-839F-63CAB8F865DE}.Debug|x64.Build.0 = Debug|x64
+		{01E96E53-A3CB-48F5-839F-63CAB8F865DE}.Debug|x86.ActiveCfg = Debug|Win32
+		{01E96E53-A3CB-48F5-839F-63CAB8F865DE}.Debug|x86.Build.0 = Debug|Win32
+		{01E96E53-A3CB-48F5-839F-63CAB8F865DE}.Release|x64.ActiveCfg = Release|x64
+		{01E96E53-A3CB-48F5-839F-63CAB8F865DE}.Release|x64.Build.0 = Release|x64
+		{01E96E53-A3CB-48F5-839F-63CAB8F865DE}.Release|x86.ActiveCfg = Release|Win32
+		{01E96E53-A3CB-48F5-839F-63CAB8F865DE}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
