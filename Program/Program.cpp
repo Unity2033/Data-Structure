@@ -85,6 +85,102 @@ public :
 		}
 	}
 
+	void Remove(T data)
+	{
+		if (root == nullptr)
+		{
+			cout << "Binary Search Tree is Empty" << endl;
+		}
+		else
+		{
+			Node * currentNode = root;
+			Node * parentNode = nullptr;
+
+			while (currentNode != nullptr && currentNode->data != data)
+			{
+				if (currentNode->data > data)
+				{
+					parentNode = currentNode;
+					currentNode = currentNode->left;				
+				}
+				else
+				{
+					parentNode = currentNode;
+					currentNode = currentNode->right;
+				}
+			}
+
+			if (currentNode == nullptr)
+			{
+				cout << "Data Not found in the Binary Search Tree" << endl;
+			}
+			else if (currentNode->left == nullptr && currentNode->right == nullptr)
+			{
+				if (parentNode != nullptr)
+				{
+					if (parentNode->left == currentNode)
+					{
+						parentNode->left = nullptr;
+				    }
+					else
+					{
+						parentNode->right = nullptr;
+					}
+				}		
+				else
+				{
+					root = nullptr;
+				}
+			}
+			else if (currentNode->left == nullptr || currentNode->right == nullptr)
+			{
+				Node * childNode = nullptr;
+
+				if (currentNode->left != nullptr)
+				{
+					childNode = currentNode->left;
+				}
+				else
+				{
+					childNode = currentNode->right;
+				}
+
+				if (parentNode != nullptr)
+				{
+					if (parentNode->left == currentNode)
+					{
+						parentNode->left = childNode;
+					}
+					else
+					{
+						parentNode->right = childNode;
+					}
+				}
+			}
+			else
+			{
+				Node * childNode = currentNode->right;
+				Node * traceNode = childNode;
+
+				while (childNode->left != nullptr)
+				{
+					traceNode = childNode;
+					childNode = childNode->left;
+				}
+
+				currentNode->data = childNode->data;
+
+				traceNode->left = childNode->right;
+
+				delete childNode;
+
+				return;
+			}
+
+			delete currentNode;
+		}
+	}
+
 	bool Find(T data)
 	{
 		Node * currentNode = root;
@@ -152,9 +248,14 @@ int main()
 	binarySearchTree.Insert(7);
 	binarySearchTree.Insert(15);
 	binarySearchTree.Insert(5);
+	binarySearchTree.Insert(3);
+
 
 	cout << binarySearchTree.Find(5) << endl;
 	cout << binarySearchTree.Find(0) << endl;
+
+	binarySearchTree.Remove(5);
+	binarySearchTree.Remove(7);
 
 	binarySearchTree.Inorder(binarySearchTree.Root());
 
