@@ -10,6 +10,7 @@ private:
 	bool final;
 
 	Trie* alphabet[SIZE];
+
 public:
 	Trie()
 	{
@@ -26,23 +27,32 @@ public:
 		if (*content == '\0')
 		{
 			final = true;
-			return;
 		}
 		else
 		{
-			int index = *content - 'A';
+			int index = 0;
+
+			if ('A' <= *content && 'Z' >= *content)
+			{
+				index = *content - 'A';
+			}
+			else if ('a' <= *content && 'z' >= *content)
+			{
+				index = *content - 'a';
+			}
 
 			if (alphabet[index] == nullptr)
 			{
 				alphabet[index] = new Trie();
-				alphabet[index]->Insert(content + 1);
 			}
+
+			alphabet[index]->Insert(content + 1);
 		}
 	}
 
 	bool Find(const char* content)
 	{
-		if (*content == NULL)
+		if (*content == '\0')
 		{
 			if (final == true)
 			{
@@ -55,7 +65,16 @@ public:
 		}
 		else
 		{
-			int index = *content - 'A';
+			int index = 0;
+
+			if ('A' <= *content && 'Z' >= *content)
+			{
+				index = *content - 'A';
+			}
+			else if ('a' <= *content && 'z' >= *content)
+			{
+				index = *content - 'a';
+			}
 
 			if (alphabet[index] == nullptr)
 			{
@@ -66,6 +85,7 @@ public:
 				return alphabet[index]->Find(content + 1);
 			}
 		}
+
 	}
 
 	~Trie()
@@ -84,13 +104,13 @@ int main()
 {
 	Trie trie;
 
-	trie.Insert("HELLO");
-	trie.Insert("WORLD");
-	trie.Insert("HALLO");
-	trie.Insert("WELT");
+	trie.Insert("Hello");
+	trie.Insert("Health");
 
-	cout << trie.Find("HELLO") << endl;
-	cout << trie.Find("WORLD!!!") << endl;
+	cout << trie.Find("Hello") << endl;
+	cout << trie.Find("Health") << endl;
+
+
 
 	return 0;
 }
