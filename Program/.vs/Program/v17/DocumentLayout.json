@@ -1,10 +1,19 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\Program\\",
+  "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\Data-Structure\\Program\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A871C2BF-4943-43E2-9D94-2FD91FE3912F}|Program.vcxproj|C:\\Users\\Administrator\\Desktop\\Program\\Program.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{A871C2BF-4943-43E2-9D94-2FD91FE3912F}|Program.vcxproj|C:\\Users\\Administrator\\Desktop\\Data-Structure\\Program\\Program.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A871C2BF-4943-43E2-9D94-2FD91FE3912F}|Program.vcxproj|solutionrelative:Program.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE136F8B-9EEE-4949-B21A-F34BE9DC5109}|..\\Class3th (Bubble Sort)\\Class3th (Bubble Sort).vcxproj|C:\\Users\\Administrator\\Desktop\\Data-Structure\\Class3th (Bubble Sort)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4708C6C4-6DCC-4A54-9E82-B57E20C6D71D}|..\\Class2th (Brute Force)\\Class2th (Brute Force).vcxproj|C:\\Users\\Administrator\\Desktop\\Data-Structure\\Class2th (Brute Force)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DC5C600-9B9B-4DC0-BDF7-1F7F2D245962}|..\\Class1th (Time Complexity \u0026 Space Complexity)\\Class1th (Time Complexity \u0026 Space Complexity).vcxproj|C:\\Users\\Administrator\\Desktop\\Data-Structure\\Class1th (Time Complexity \u0026 Space Complexity)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,17 +23,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Source.cpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Data-Structure\\Class3th (Bubble Sort)\\Source.cpp",
+              "RelativeDocumentMoniker": "..\\Class3th (Bubble Sort)\\Source.cpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Data-Structure\\Class3th (Bubble Sort)\\Source.cpp",
+              "RelativeToolTip": "..\\Class3th (Bubble Sort)\\Source.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-12T12:16:35.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Source.cpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Data-Structure\\Class2th (Brute Force)\\Source.cpp",
+              "RelativeDocumentMoniker": "..\\Class2th (Brute Force)\\Source.cpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Data-Structure\\Class2th (Brute Force)\\Source.cpp",
+              "RelativeToolTip": "..\\Class2th (Brute Force)\\Source.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-12T11:29:18.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Source.cpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Data-Structure\\Class1th (Time Complexity \u0026 Space Complexity)\\Source.cpp",
+              "RelativeDocumentMoniker": "..\\Class1th (Time Complexity \u0026 Space Complexity)\\Source.cpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Data-Structure\\Class1th (Time Complexity \u0026 Space Complexity)\\Source.cpp",
+              "RelativeToolTip": "..\\Class1th (Time Complexity \u0026 Space Complexity)\\Source.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAowCcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-12T11:04:14.368Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cpp",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Program\\Program.cpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Data-Structure\\Program\\Program.cpp",
               "RelativeDocumentMoniker": "Program.cpp",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Program\\Program.cpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Data-Structure\\Program\\Program.cpp",
               "RelativeToolTip": "Program.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADcAAAARAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAYAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-12-11T12:03:44.444Z",
               "EditorCaption": ""
