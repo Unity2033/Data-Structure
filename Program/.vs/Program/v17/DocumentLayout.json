@@ -7,6 +7,12 @@
       "RelativeMoniker": "D:0:0:{A871C2BF-4943-43E2-9D94-2FD91FE3912F}|Program.vcxproj|solutionrelative:Program.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A1D1A4D2-D54D-480A-A793-A16B994878FC}|..\\Class5th (Insert Sort)\\Class5th (Insert Sort).vcxproj|C:\\Users\\Administrator\\Desktop\\Data-Structure\\Class5th (Insert Sort)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{821EB415-1F9B-4ABD-8D15-531AEA80778D}|..\\Class4th (Select Sort)\\Class4th (Select Sort).vcxproj|C:\\Users\\Administrator\\Desktop\\Data-Structure\\Class4th (Select Sort)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BE136F8B-9EEE-4949-B21A-F34BE9DC5109}|..\\Class3th (Bubble Sort)\\Class3th (Bubble Sort).vcxproj|C:\\Users\\Administrator\\Desktop\\Data-Structure\\Class3th (Bubble Sort)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
@@ -23,11 +29,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Source.cpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Data-Structure\\Class5th (Insert Sort)\\Source.cpp",
+              "RelativeDocumentMoniker": "..\\Class5th (Insert Sort)\\Source.cpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Data-Structure\\Class5th (Insert Sort)\\Source.cpp",
+              "RelativeToolTip": "..\\Class5th (Insert Sort)\\Source.cpp",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-13T12:02:18.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Source.cpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Data-Structure\\Class4th (Select Sort)\\Source.cpp",
+              "RelativeDocumentMoniker": "..\\Class4th (Select Sort)\\Source.cpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Data-Structure\\Class4th (Select Sort)\\Source.cpp",
+              "RelativeToolTip": "..\\Class4th (Select Sort)\\Source.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-13T11:10:24.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Data-Structure\\Class3th (Bubble Sort)\\Source.cpp",
               "RelativeDocumentMoniker": "..\\Class3th (Bubble Sort)\\Source.cpp",
@@ -40,7 +72,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Data-Structure\\Class2th (Brute Force)\\Source.cpp",
               "RelativeDocumentMoniker": "..\\Class2th (Brute Force)\\Source.cpp",
@@ -48,12 +80,11 @@
               "RelativeToolTip": "..\\Class2th (Brute Force)\\Source.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-12T11:29:18.448Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-12T11:29:18.448Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Data-Structure\\Class1th (Time Complexity \u0026 Space Complexity)\\Source.cpp",
               "RelativeDocumentMoniker": "..\\Class1th (Time Complexity \u0026 Space Complexity)\\Source.cpp",
@@ -61,8 +92,7 @@
               "RelativeToolTip": "..\\Class1th (Time Complexity \u0026 Space Complexity)\\Source.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAowCcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-12T11:04:14.368Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-12T11:04:14.368Z"
             },
             {
               "$type": "Document",
@@ -72,7 +102,7 @@
               "RelativeDocumentMoniker": "Program.cpp",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\Data-Structure\\Program\\Program.cpp",
               "RelativeToolTip": "Program.cpp",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAYAAAAUAAAA",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAswBAAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-12-11T12:03:44.444Z",
               "EditorCaption": ""
