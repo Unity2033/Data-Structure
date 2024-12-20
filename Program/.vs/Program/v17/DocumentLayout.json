@@ -3,14 +3,17 @@
   "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\Problem-Solve\\Program\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A871C2BF-4943-43E2-9D94-2FD91FE3912F}|Program.vcxproj|C:\\Users\\Administrator\\Desktop\\Problem-Solve\\Program\\Program.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A871C2BF-4943-43E2-9D94-2FD91FE3912F}|Program.vcxproj|solutionrelative:Program.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81CFB889-6900-461D-B1AE-9FDE5B3F6AD6}|..\\Class12th (Dynamic Programming)\\Class12th (Dynamic Programming).vcxproj|C:\\Users\\Administrator\\Desktop\\Problem-Solve\\Class12th (Dynamic Programming)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{89482B83-23D0-4BAE-9CCB-80770AE392FB}|..\\Class11th (Quick Sort)\\Class11th (Quick Sort).vcxproj|C:\\Users\\Administrator\\Desktop\\Problem-Solve\\Class11th (Quick Sort)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8A3BABCA-4B0D-436F-BFA1-9919A10E3C19}|..\\Class10th (Divide and Conquer)\\Class10th (Divide and Conquer).vcxproj|C:\\Users\\Administrator\\Desktop\\Problem-Solve\\Class10th (Divide and Conquer)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A871C2BF-4943-43E2-9D94-2FD91FE3912F}|Program.vcxproj|C:\\Users\\Administrator\\Desktop\\Problem-Solve\\Program\\Program.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A871C2BF-4943-43E2-9D94-2FD91FE3912F}|Program.vcxproj|solutionrelative:Program.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{50755D01-EC85-4C61-9092-F2820FF2650B}|..\\Class9th (Count Sort)\\Class9th (Count Sort).vcxproj|C:\\Users\\Administrator\\Desktop\\Problem-Solve\\Class9th (Count Sort)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
@@ -47,24 +50,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "Source.cpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Problem-Solve\\Class12th (Dynamic Programming)\\Source.cpp",
+              "RelativeDocumentMoniker": "..\\Class12th (Dynamic Programming)\\Source.cpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Problem-Solve\\Class12th (Dynamic Programming)\\Source.cpp",
+              "RelativeToolTip": "..\\Class12th (Dynamic Programming)\\Source.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-20T12:36:55.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Problem-Solve\\Class11th (Quick Sort)\\Source.cpp",
               "RelativeDocumentMoniker": "..\\Class11th (Quick Sort)\\Source.cpp",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\Problem-Solve\\Class11th (Quick Sort)\\Source.cpp",
               "RelativeToolTip": "..\\Class11th (Quick Sort)\\Source.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADYAAAAAAAAA",
+              "ViewState": "AQIAADIAAAAAAAAAAAAiwFEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-12-19T12:36:15.562Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Problem-Solve\\Class10th (Divide and Conquer)\\Source.cpp",
               "RelativeDocumentMoniker": "..\\Class10th (Divide and Conquer)\\Source.cpp",
@@ -72,12 +88,11 @@
               "RelativeToolTip": "..\\Class10th (Divide and Conquer)\\Source.cpp",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAAAYAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-18T12:19:15.831Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-18T12:19:15.831Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Problem-Solve\\Class9th (Count Sort)\\Source.cpp",
               "RelativeDocumentMoniker": "..\\Class9th (Count Sort)\\Source.cpp",
@@ -89,7 +104,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Problem-Solve\\Class8th (Binary Search)\\Source.cpp",
               "RelativeDocumentMoniker": "..\\Class8th (Binary Search)\\Source.cpp",
@@ -101,7 +116,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Problem-Solve\\Class7th (Two Pointer)\\Source.cpp",
               "RelativeDocumentMoniker": "..\\Class7th (Two Pointer)\\Source.cpp",
@@ -113,7 +128,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Problem-Solve\\Class6th (Euclidean)\\Source.cpp",
               "RelativeDocumentMoniker": "..\\Class6th (Euclidean)\\Source.cpp",
@@ -125,7 +140,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Data-Structure\\Class5th (Insert Sort)\\Source.cpp",
               "RelativeDocumentMoniker": "..\\..\\Data-Structure\\Class5th (Insert Sort)\\Source.cpp",
@@ -137,7 +152,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Data-Structure\\Class4th (Select Sort)\\Source.cpp",
               "RelativeDocumentMoniker": "..\\..\\Data-Structure\\Class4th (Select Sort)\\Source.cpp",
@@ -149,7 +164,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Data-Structure\\Class3th (Bubble Sort)\\Source.cpp",
               "RelativeDocumentMoniker": "..\\..\\Data-Structure\\Class3th (Bubble Sort)\\Source.cpp",
@@ -161,7 +176,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Data-Structure\\Class2th (Brute Force)\\Source.cpp",
               "RelativeDocumentMoniker": "..\\..\\Data-Structure\\Class2th (Brute Force)\\Source.cpp",
@@ -173,7 +188,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Data-Structure\\Class1th (Time Complexity \u0026 Space Complexity)\\Source.cpp",
               "RelativeDocumentMoniker": "..\\..\\Data-Structure\\Class1th (Time Complexity \u0026 Space Complexity)\\Source.cpp",
@@ -185,13 +200,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Program.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Problem-Solve\\Program\\Program.cpp",
               "RelativeDocumentMoniker": "Program.cpp",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\Problem-Solve\\Program\\Program.cpp",
               "RelativeToolTip": "Program.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-12-11T12:03:44.444Z",
               "EditorCaption": ""
